@@ -39,17 +39,22 @@ const Contact = () => {
     <section id="contact" className="section-padding bg-white">
       <div className="container mx-auto">
         <div className="text-center mb-12">
-          <h2 className="text-4xl md:text-5xl font-bold mb-4 text-sweet-dark">Get in <span className="text-sweet">Touch</span></h2>
+          <h2 className="text-4xl md:text-5xl font-bold mb-4 text-sweet-dark">
+            Get in <span className="text-sweet">Touch</span>
+          </h2>
           <p className="text-lg text-sweet-dark/70 max-w-2xl mx-auto">
-            Have questions about our sweets or want to place an order? Contact us today!
+            Have questions about our sweets or want to place an order? Contact
+            us today!
           </p>
         </div>
-        
+
         <div className="flex flex-col md:flex-row gap-12">
           <div className="md:w-1/2">
             <div className="bg-sweet-light p-8 rounded-lg shadow-lg h-full">
-              <h3 className="text-2xl font-bold mb-6 text-sweet-dark">Contact Information</h3>
-              
+              <h3 className="text-2xl font-bold mb-6 text-sweet-dark">
+                Contact Information
+              </h3>
+
               <div className="space-y-8">
                 <div className="flex items-start">
                   <div className="bg-sweet/10 p-3 rounded-full mr-4">
@@ -57,10 +62,14 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className="font-bold text-sweet-dark">Address</h4>
-                    <p className="text-sweet-dark/70">123 Sweetness Lane<br />Jaipur, Rajasthan 302001</p>
+                    <p className="text-sweet-dark/70">
+                      {" "}
+                      H - 33/58 Rohini, Sector 3
+                      <br /> Vishram Chowk, Delhi, 110085
+                    </p>
                   </div>
                 </div>
-                
+
                 <div className="flex items-start">
                   <div className="bg-sweet/10 p-3 rounded-full mr-4">
                     <Phone className="h-6 w-6 text-sweet" />
@@ -70,20 +79,24 @@ const Contact = () => {
                     <p className="text-sweet-dark/70">+91 9876543210</p>
                   </div>
                 </div>
-                
+
                 <div className="flex items-start">
                   <div className="bg-sweet/10 p-3 rounded-full mr-4">
                     <Mail className="h-6 w-6 text-sweet" />
                   </div>
                   <div>
                     <h4 className="font-bold text-sweet-dark">Email</h4>
-                    <p className="text-sweet-dark/70">info@bansiwalasweets.com</p>
+                    <p className="text-sweet-dark/70">
+                      info@bansiwalasweets.com
+                    </p>
                   </div>
                 </div>
               </div>
-              
+
               <div className="mt-10">
-                <h4 className="font-bold text-sweet-dark mb-4">Business Hours</h4>
+                <h4 className="font-bold text-sweet-dark mb-4">
+                  Business Hours
+                </h4>
                 <div className="grid grid-cols-2 gap-2 text-sweet-dark/70">
                   <div>Monday - Friday:</div>
                   <div>8:00 AM - 8:00 PM</div>
@@ -93,17 +106,25 @@ const Contact = () => {
               </div>
             </div>
           </div>
-          
+
           <div className="md:w-1/2">
-            <form onSubmit={handleSubmit} className="bg-white p-8 rounded-lg shadow-lg">
-              <h3 className="text-2xl font-bold mb-6 text-sweet-dark">Send us a Message</h3>
-              
+            <form
+              onSubmit={handleSubmit}
+              className="bg-white p-8 rounded-lg shadow-lg"
+            >
+              <h3 className="text-2xl font-bold mb-6 text-sweet-dark">
+                Send us a Message
+              </h3>
+
               <div className="space-y-4">
                 <div>
-                  <label htmlFor="name" className="block text-sm font-medium text-sweet-dark mb-1">
+                  <label
+                    htmlFor="name"
+                    className="block text-sm font-medium text-sweet-dark mb-1"
+                  >
                     Your Name
                   </label>
-                  <Input 
+                  <Input
                     id="name"
                     name="name"
                     placeholder="Enter your name"
@@ -113,12 +134,15 @@ const Contact = () => {
                     className="w-full"
                   />
                 </div>
-                
+
                 <div>
-                  <label htmlFor="email" className="block text-sm font-medium text-sweet-dark mb-1">
+                  <label
+                    htmlFor="email"
+                    className="block text-sm font-medium text-sweet-dark mb-1"
+                  >
                     Your Email
                   </label>
-                  <Input 
+                  <Input
                     id="email"
                     name="email"
                     type="email"
@@ -129,12 +153,15 @@ const Contact = () => {
                     className="w-full"
                   />
                 </div>
-                
+
                 <div>
-                  <label htmlFor="message" className="block text-sm font-medium text-sweet-dark mb-1">
+                  <label
+                    htmlFor="message"
+                    className="block text-sm font-medium text-sweet-dark mb-1"
+                  >
                     Your Message
                   </label>
-                  <Textarea 
+                  <Textarea
                     id="message"
                     name="message"
                     placeholder="How can we help you?"
@@ -145,8 +172,11 @@ const Contact = () => {
                   />
                 </div>
               </div>
-              
-              <Button type="submit" className="mt-6 bg-sweet hover:bg-sweet-dark text-white">
+
+              <Button
+                type="submit"
+                className="mt-6 bg-sweet hover:bg-sweet-dark text-white"
+              >
                 Send Message <ArrowRight className="ml-2 h-4 w-4" />
               </Button>
             </form>

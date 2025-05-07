@@ -16,8 +16,10 @@ const products = [
     name: "Motichoor Ladoo",
     price: "220/kg",
     category: "ladoos",
-    description: "Small sweet balls made from gram flour, soaked in sugar syrup.",
-    image: "https://images.unsplash.com/photo-1606576036860-90296d391f97?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+    description:
+      "Small sweet balls made from gram flour, soaked in sugar syrup.",
+    image:
+      "https://static.toiimg.com/thumb/55048059.cms?imgsize=196306&width=509&height=340",
     popular: true,
   },
   {
@@ -26,7 +28,8 @@ const products = [
     price: "800/kg",
     category: "barfi",
     description: "Diamond-shaped cashew fudge with a silver foil topping.",
-    image: "https://images.unsplash.com/photo-1596459635994-81c7626072f7?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+    image:
+      "https://prashantcorner.com/cdn/shop/files/KajuKatli_0a49ddbc-016b-4cff-b4f8-9d0e5a1ba453.jpg?v=1730984954",
     popular: true,
   },
   {
@@ -35,7 +38,8 @@ const products = [
     price: "180/kg",
     category: "jalebi",
     description: "Deep-fried pretzel-shaped sweet soaked in syrup.",
-    image: "https://images.unsplash.com/photo-1589125543713-8eade80deac4?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFsK3BmYSa-UaqsKPy8AvquFd2DwmFXiZZkA",
     popular: false,
   },
   {
@@ -44,7 +48,8 @@ const products = [
     price: "320/kg",
     category: "ladoos",
     description: "Sweet balls made from gram flour, ghee and sugar.",
-    image: "https://images.unsplash.com/photo-1615487303067-7fb0d6868e93?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+    image:
+      "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjjcPCefeQK8R-OgjN2SDqA5grMXQqW1W5iFuTbZc2n6bEyvZA2aeHyzNxkiluS0tRmE1lWXJ9ZPf86MhtfjtvwTDeFe0lqyFBjLN8tBvL40nE4JJsPrZ3AKkazP6kLI6qynxOp6WcthnkC/s1600-rw/Besan+Ladoo+Recipe+Festive+Sweet+4.jpg",
     popular: false,
   },
   {
@@ -53,7 +58,8 @@ const products = [
     price: "650/kg",
     category: "barfi",
     description: "Sweet treat made from condensed milk and pistachios.",
-    image: "https://images.unsplash.com/photo-1590080875515-8a3a8dc5735e?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+    image:
+      "https://images.unsplash.com/photo-1590080875515-8a3a8dc5735e?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
     popular: true,
   },
   {
@@ -62,9 +68,10 @@ const products = [
     price: "340/kg",
     category: "jalebi",
     description: "Deep-fried milk solids soaked in rose-flavored syrup.",
-    image: "https://images.unsplash.com/photo-1601303484246-56476d7cde231?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrHbfrKINVrjz6pQT7WeRD8DePX-stc3QKeQ",
     popular: false,
-  }
+  },
 ];
 
 const Products = () => {
